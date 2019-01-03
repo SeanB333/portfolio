@@ -304,8 +304,18 @@ footer {
 }
 
 /* new color for icon languages */
-
 .icon-red {
   color: red;
   opacity:.4;
+}
+
+/* color changes for porject tabs */
+.color-change {
+  filter: grayscale(100%);
+  transition: filter 1s;
+}
+
+.color-change:hover {
+  filter: grayscale(0%);
+  transition: filter 1s;
 }
