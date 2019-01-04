@@ -35,7 +35,7 @@
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Portfolio</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Sean B Portfolio</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
         aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         Menu
@@ -73,16 +73,47 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-8 mx-auto">
-          <h2 class="text-white mb-4">Follow me on github <i class="devicon-github-plain-wordmark"></i></h2>
-          <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours
-            right now, simply download the template on
-            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open
-            source, and you can use it for any purpose, personal or commercial.</p>
+          <h1 class="text-white mb-4">View my Resume</h1>
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">view</button>
+          <h3 class="text-white mb-4 mt-5">And Follow me on Github <i class="devicon-github-plain-wordmark"></i></h3>
+          <p class="text-white-50">I have Posted my four favorite projects inthis portfolio. For a full list of my
+            repos and collabs, click
+            <a href="https://github.com/SeanB333">github.com/SeanB333</a>. to take you to my github profile. you can
+            also view my
+            Codewars profile by clicking <a href="https://www.codewars.com/users/SeanB333">Codewars/SeanB333</a>. </p>
         </div>
       </div>
       <img src="img/ipad.png" class="img-fluid" alt="">
     </div>
   </section>
+
+  <!-- modal section -->
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">resume</h4>
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <!-- coming soon gif -->
+          <p>
+            <div style="width:100%;height:0;padding-bottom:56%;position:relative;"><iframe src="https://giphy.com/embed/F1eakiTIV7iFO"
+                width="100%" height="100%" style="position:absolute" frameBorder="0" class="giphy-embed"
+                allowFullScreen></iframe></div>
+            <p><a href="https://giphy.com/gifs/vintage-coming-soon-drive-in-movie-F1eakiTIV7iFO">via GIPHY</a></p>
+          </p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
 
   <!-- Projects Section -->
   <section id="projects" class="projects-section bg-light">
@@ -95,31 +126,37 @@
         </div>
         <div class="col-xl-4 col-lg-5">
           <div class="featured-text text-center text-lg-left">
-            <h4>Shoreline</h4>
-            <p class="text-black-50 mb-0">Grayscale is open source and MIT licensed. This means you can use it for any
-              project - even commercial projects! Download it, customize it, and publish your website!</p>
+            <h4>Work Flow</h4>
+            <p class="text-black-50 mb-0">The most important part of a project is work flow. As a 20+ year OPM, I
+              understand the
+              necessity of task relations and production vs progress. I have gained a great deal of experience using
+              VSCode and Trello(linked to the github projects Khanban board)
+              to build web apps that involve tech such as Node, React, Express, Sequelize, Mongo DB, and more
+            </p>
           </div>
         </div>
       </div>
 
       <!-- Project One Row -->
-      <br>
+
+      <h3 id="project-group" class="text-center">Projects</h3>
       <hr>
-      <h1 class="text-center">Projects</h1>
-      <hr>
       <br>
       <br>
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 bg-black">
         <div class="col-lg-6">
-          <img class="img-fluid color-change" src="./img/Capture1.PNG" alt="">
+          <a href="https://media-net.herokuapp.com/articles">
+            <img class="img-fluid color-change" src="./img/Capture1.PNG" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                  along with a description.</p>
+                <h4 class="text-white">SCI-net Web Scraper</h4>
+                <p class="mb-0 text-white-50">SCI-NET is a simple web scrape app that allows the user to scrape
+                  articles
+                  from thier favorite science pages and or blogs and save them to the database.</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -128,17 +165,20 @@
       </div>
 
       <!-- Project Two Row -->
-      <div class="row justify-content-center no-gutters">
+      <div class="row justify-content-center no-gutters bg-black">
         <div class="col-lg-6">
-          <img class="img-fluid color-change" src="./img/Capture2.PNG" alt="">
+          <a href="https://medsperhour-develop.herokuapp.com/">
+            <img class="img-fluid color-change" src="./img/Capture2.PNG" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                  sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Xtract</h4>
+                <p class="mb-0 text-white-50">This app lets users sign in and buy, sell, and trade preserved blocks of
+                  code with
+                  other users!</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -146,17 +186,19 @@
         </div>
       </div>
       <!-- Project Three Row -->
-      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0 bg-black">
         <div class="col-lg-6">
-          <img class="img-fluid color-change" src="./img/Capture3.PNG" alt="">
+          <a href="https://github.com/SeanB333/bamazon">
+            <img class="img-fluid color-change" src="./img/Capture3.PNG" alt="">
+          </a>
         </div>
         <div class="col-lg-6">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-left">
-                <h4 class="text-white">Misty</h4>
-                <p class="mb-0 text-white-50">An example of where you can put an image of a project, or anything else,
-                  along with a description.</p>
+                <h4 class="text-white">Bamazon</h4>
+                <p class="mb-0 text-white-50">A fully functional Node-CLI that allows differnt levels of product
+                  related database manipulation</p>
                 <hr class="d-none d-lg-block mb-0 ml-0">
               </div>
             </div>
@@ -165,17 +207,19 @@
       </div>
 
       <!-- Project Four Row -->
-      <div class="row justify-content-center no-gutters">
+      <div class="row justify-content-center no-gutters bg-black">
         <div class="col-lg-6">
-          <img class="img-fluid color-change" src="./img/Capture4.PNG" alt="">
+          <a href="https://seanb333.github.io/Graffiti-Bears/">
+            <img class="img-fluid color-change" src="./img/Capture4.PNG" alt="">
+          </a>
         </div>
         <div class="col-lg-6 order-lg-first">
           <div class="bg-black text-center h-100 project">
             <div class="d-flex h-100">
               <div class="project-text w-100 my-auto text-center text-lg-right">
-                <h4 class="text-white">Mountains</h4>
-                <p class="mb-0 text-white-50">Another example of a project with its respective description. These
-                  sections work well responsively as well, try this theme on a small screen!</p>
+                <h4 class="text-white">Graffiti bears</h4>
+                <p class="mb-0 text-white-50">A Javascript interactive game that allows players to Fight or Run in an
+                  RPG style game environment</p>
                 <hr class="d-none d-lg-block mb-0 mr-0">
               </div>
             </div>
@@ -191,15 +235,10 @@
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
-
-          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Subscribe to receive updates!</h2>
-
-          <form class="form-inline d-flex">
-            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="Enter email address...">
-            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
-          </form>
-
+          <h1>
+            <a href="#" class="far fa-paper-plane fa-2x mb-2 text-danger"></a>
+          </h1>
+          <h2 class="text-white mb-5">Follow me to our digital services!</h2>
         </div>
       </div>
     </div>
@@ -229,7 +268,7 @@
               <h4 class="text-uppercase m-0">Email</h4>
               <hr class="my-4">
               <div class="small text-black-50">
-                <a href="#">spb4578@gmail.com</a>
+                <a href="mailto:seanb@seanbrennan.tech?cc=spb4578@gmail.com&subject=Big%20SeanB&body=new-mail-from-portfiolio">seanb@seanbrennan.tech</a>
               </div>
             </div>
           </div>
@@ -255,7 +294,7 @@
           <i class="devicon-bootstrap-plain"></i>
           <i class="devicon-express-original"></i>
           <i class="devicon-git-plain"></i>
-          <i class="devicon-gulp-plain"></i>
+          <i class="devicon-grunt-plain"></i>
           <i class="devicon-heroku-original"></i>
           <i class="devicon-jquery-plain"></i>
           <i class="devicon-less-plain-wordmark"></i>
@@ -274,17 +313,19 @@
           <i class="devicon-trello-plain-wordmark"></i>
           <i class="devicon-ubuntu-plain"></i>
           <i class="devicon-visualstudio-plain"></i>
+          <i class="devicon-react-original"></i>
+          <i class="devicon-babel-plain"></i>
         </h1>
 
       </div>
       <div class="social d-flex justify-content-center">
-        <a href="#" class="mx-2">
-          <i class="fab fa-instagram"></i>
-        </a>
-        <a href="#" class="mx-2">
+        <a href="https://www.facebook.com/sean.brennan.731?ref=bookmarks" class="mx-2">
           <i class="fab fa-facebook-f"></i>
         </a>
-        <a href="#" class="mx-2">
+        <a href="https://www.instagram.com/sean_b333/" class="mx-2">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/sean-brennan-1614b333/" class="mx-2">
           <i class="fab fa-linkedin"></i>
         </a>
       </div>
@@ -295,7 +336,7 @@
   <!-- Footer -->
   <footer class="bg-black small text-center text-white-50">
     <div class="container">
-      Copyright &copy; Your Website 2018
+      Copyright &copy; seanbrennan.tech 2018
     </div>
   </footer>
 
