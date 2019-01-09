@@ -324,3 +324,7 @@ footer {
 #project-group {
   margin-top: 15rem
 }
+
+.grays {
+ filter: grayscale(100%);
+}
